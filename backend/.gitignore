@@ -1,0 +1,34 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore environment variables file
+.env
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore database or SQLite files
+*.sqlite3
+*.db
+
+# Ignore coverage and test reports
+htmlcov/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Ignore dist and build folders (if packaging)
+build/
+dist/
+*.egg-info/
