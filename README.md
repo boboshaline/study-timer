@@ -10,6 +10,7 @@ cd backend
 python3 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+run python3 app.py to start the server
 cd ../frontend/study-timer-app/
 yarn install or npm install
-npm run dev
+ run npm run dev to start the frontend
