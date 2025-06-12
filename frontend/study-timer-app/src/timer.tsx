@@ -11,7 +11,7 @@ type Session = {
 };
 
 export const Timer = () => {
-  const [timeLeft, setTimeLeft] = useState(5 * 60);
+  const [timeLeft, setTimeLeft] = useState(30 * 60);
   const [isRunning, setIsRunning] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
   const [subject, setSubject] = useState("");
