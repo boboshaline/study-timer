@@ -93,7 +93,7 @@ export const Timer = () => {
       });
       const data = await res.json();
       setSubject("");
-      setTimeLeft(5 * 60);
+      setTimeLeft(30 * 60);
       fetchSessions();
       setShowDialog(false);
       toast.info(data.message);
